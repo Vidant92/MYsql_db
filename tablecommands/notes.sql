@@ -32,3 +32,10 @@ example-  alter table students RENAME COLUMN phoneno TO studentphone_no;
 -- to delete the column ( we use DROP)
 alter table [tablename ] DROP COLUMN [ columnname];
 example-  alter table students DROP COLUMN city;
+
+-- insert data to table
+insert into [ tablename](cols) values (values);
+example- insert into students(id,name,studentphone_no)values (12, "vidant", "12345678");
+
+-- to check the inserted data in tbales
+example-  select * from students;
