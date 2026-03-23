@@ -37,5 +37,5 @@ example-  alter table students DROP COLUMN city;
 insert into [ tablename](cols) values (values);
 example- insert into students(id,name,studentphone_no)values (12, "vidant", "12345678");
 
--- to check the inserted data in tbales
+-- to check the inserted data in tables
 example-  select * from students;
