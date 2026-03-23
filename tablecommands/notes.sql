@@ -39,3 +39,6 @@ example- insert into students(id,name,studentphone_no)values (12, "vidant", "123
 
 -- to check the inserted data in tables
 example-  select * from students;
+
+
+// -- DAY 2 
